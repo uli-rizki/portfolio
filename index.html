@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uli Rizki</title>
+  <meta name="author" content="ulirizki@gmail.com">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/portfolio.css">
+  <script src="assets/portfolio.js"></script>
+</head>
+<body class="bg-dark">
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg portnav">
+      <div class="container">
+        <a class="navbar-brand" href="#"><h2 class="text-white">Ul.</h2></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="#">
+                <img class="img-fluid" src="assets/images/github.svg" width="32">
+              </a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link text-white" href="#">
+                <img class="img-fluid" src="assets/images/linkedin.svg" width="32">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="main-content">
+    <section id="profile" class="profile">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-lg-6 my-auto text-center text-md-left">
+            <h1 class="profile__title text-white">I'm Uli</h1>
+            <h3 class="text-grey pb-5">Web Developer</h3>
+
+            <button type="button" class="btn btn-grad mx-auto mx-md-0" onclick="aboutMe()">About Me</button>
+          </div>
+          <div class="col-lg-6 my-auto">
+            <img class="img-fluid" src="assets/images/programming.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="aboutMe" class="about bg-dark-1 py-5">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-lg-6 m-auto text-center">
+            <h1 class="text-center m-auto pb-5 pb-md-0 section-title">About Me</h1>
+          </div>
+          <div class="col-lg-6">
+            <p class="about__text">
+              I'm very interested in new things, especially
+              in science and technology. Quick learning is
+              my strength. Until now, I have focused on
+              website development. In my experience, not only
+              handles backend but also frontend.
+            </p>
+            <h3 class="mt-5 mb-3 section-title">My Skills</h3>
+            <div class="form-group row">
+              <label class="col-md-3">PHP</label>
+              <div class="col-md-9">
+                <input type="range" min="0" max="10" step="8" >
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-md-3">Javascript</label>
+              <div class="col-md-9">
+                <input type="range" min="0" max="10" step="8" >
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-md-3">ReactJS</label>
+              <div class="col-md-9">
+                <input type="range" min="0" max="10" step="7" >
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-md-3">Codeigniter</label>
+              <div class="col-md-9">
+                <input type="range" min="0" max="10" step="8" >
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-md-3">Laravel</label>
+              <div class="col-md-9">
+                <input type="range" min="0" max="10" step="7">
+              </div>
+            </div>
+            <div class="d-flex justify-content-center mt-5">
+              <button type="button" class="btn btn-grad">Download CV</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="project py-5">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-12">
+            <h1 class="text-center section-title">Project</h1>
+
+            <div class="row justify-content-center mt-4">
+              <div class="col-md-4 mb-3">
+                <a class="project__anchor" href="https://event.arenatiket.com" target="_blank">
+                <div class="card project__card">
+                  <div class="card-body py-5">
+                    <h3 class="project__text text-center">Event Ticketing</h3>
+                    <p class="project__subtext text-muted text-center">Contributions At Work</p>
+                  </div>
+                </div>
+                </a>
+              </div>
+              <div class="col-md-4 mb-3">
+                <a class="project__anchor" href="https://subagent.arenatiket.com" target="_blank">
+                <div class="card project__card">
+                  <div class="card-body py-5">
+                    <h3 class="project__text text-center">Progressive Web App</h3>
+                    <p class="project__subtext text-muted text-center">Contributions with the team At Work</p>
+                  </div>
+                </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="experience py-5">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-12">
+            <h1 class="text-center section-title">Work Experiences</h1>
+
+            <div class="row justify-content-center mt-4">
+              <div class="col-md-6 mb-3">
+                <div class="card experience__card h-100">
+                  <div class="card-body py-5">
+                    <p class="experience__subtitle mb-2">June 2016 - October 2016</p>
+                    <h2 class="card-title text-white my-2">Freelance</h2>
+                    <p class="experience__subtitle">Adobe Flash, GameMaker Studio</p>
+                    <p class="card-text">
+                      Create desktop multimedia applications and android games using Adobe Flash and Game Maker.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <div class="card experience__card h-100">
+                  <div class="card-body py-5">
+                    <p class="experience__subtitle mb-2">November 2016 - 2020</p>
+                    <h2 class="card-title text-white my-2">Web Developer</h2>
+                    <p class="experience__subtitle">PHP, HTML, CSS, Javascript, ReactJs, Codeigniter, Laravel</p>
+                    <p>
+                      Maintenance and create new features for web-based ticketing services. 
+                      In the past year making PWA using reactjs and laravel frameworks in the backend
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="portfooter">
+    <div class="container">
+      <div class="row">
+        <p class="footer__text m-auto align-middle py-4">Copyright © 2020 </p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
